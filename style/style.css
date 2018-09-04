@@ -1,0 +1,59 @@
+.navbar {
+  background-color: #fff !important;
+  border: 2px solid #e4e8eb;
+  position: fixed;
+  height: 10%;
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+}
+
+body, html {
+  background-color: #f7f8f9 !important;
+  height: 100%;
+}
+
+.branding-center {
+  font-family: "Avenir";
+  font-size: 24px;
+  font-weight: bold;
+  color: #4abbed;
+}
+
+.sidebar-button {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  padding-left: 20px;
+
+
+}
+
+.sidebar-icon {
+  margin-right: 15px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: stretch;
+    height:     90%;       /* These two lines were the key. */
+    /*overflow:   hidden;*/ /* Do not use this, it crops in small browsers. */
+    margin:     0px auto;
+    padding:    0px auto;
+}
+
+#sidebar {
+    min-width: 200px;
+    max-width: 200px;
+    height: 100% !important;
+    position: relative !important;
+    background-color: #fff !important;
+    border-bottom: 2px solid #e4e8eb;
+    border-right: 2px solid #e4e8eb;
+    border-left: 2px solid #e4e8eb;
+
+
+}
+
+
+.dashboard {
+  width: 100%;
+}
