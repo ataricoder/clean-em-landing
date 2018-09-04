@@ -1,8 +1,9 @@
 .navbar {
   background-color: #fff !important;
   border: 2px solid #e4e8eb;
-  position: fixed;
-  height: 10%;
+  position: fixed !important;
+  height: 77px;
+  width: 100%;
   padding-left: 50px !important;
   padding-right: 50px !important;
 }
@@ -14,8 +15,8 @@ body, html {
 
 .branding-center {
   font-family: "Avenir";
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 26px;
+  font-weight: normal;
   color: #4abbed;
 }
 
@@ -34,15 +35,16 @@ body, html {
 .wrapper {
     display: flex;
     align-items: stretch;
-    height:     90%;       /* These two lines were the key. */
-    /*overflow:   hidden;*/ /* Do not use this, it crops in small browsers. */
+    padding-top: 77px !important;
+    height:     100%;       /* These two lines were the key. */
+    /*overflow: hidden; /* Do not use this, it crops in small browsers. */
     margin:     0px auto;
     padding:    0px auto;
 }
 
 #sidebar {
-    min-width: 200px;
-    max-width: 200px;
+    min-width: 300px;
+    max-width: 300px;
     height: 100% !important;
     position: relative !important;
     background-color: #fff !important;
@@ -53,7 +55,13 @@ body, html {
 
 }
 
+.line-sidebar {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 
 .dashboard {
   width: 100%;
+  padding: 15px;
 }
